@@ -1,11 +1,11 @@
 // Imports
-import React from 'react'
+import React from 'react';
 
 // UI Imports
-import { level1 } from '../common/shadows'
+import { level1 } from '../common/shadows';
 
 // Component
-const Card = (props) => {
+export const Card = (props) => {
   const { children, ...other } = props
 
   return (
@@ -24,5 +24,3 @@ const Card = (props) => {
     </div>
   )
 }
-
-export default Card
